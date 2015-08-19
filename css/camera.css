@@ -343,9 +343,9 @@
 
 .camera_pag  {
 	display: block;
-	position: absolute;
-	right: 50%;
-	margin-right: -470px;
+	position: center;
+	right: 0%;
+	margin-left: 45%;
 	bottom: -23px;
 	overflow: hidden;
 	z-index: 999;

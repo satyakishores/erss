@@ -375,8 +375,10 @@ a.btn.bt1 {
 }
 
 .gray_block {
-	padding-bottom: 49px;
+	padding-top: -100px;
+	padding-bottom: -49px;
 	background-color: #ebebeb;
+	
 }
 
 .block2  {
@@ -681,8 +683,8 @@ footer a:hover {
 }
 
 .socials {
-	font-size: 0;
-	line-height: 0;
+	font-size: 5;
+	line-height: 1;
 }
 
 .socials a {
@@ -691,7 +693,7 @@ footer a:hover {
 	height: 36px;
 	border-radius: 500px;
 	background-color: #a2cac2;
-	color: #fff;
+	color: #ffffff;
 	font-size: 18px;
 	line-height: 36px;
 }
