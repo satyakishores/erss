@@ -37,7 +37,7 @@ div.comphead { float:left; }
 	</head>
 	<body class="">
 <!--==============================header=================================-->
-		<header>
+		<header style="background-color: rgb(165, 182, 224);">
 			<div class="container_12">
 				<div class="grid_12">
 
@@ -104,25 +104,27 @@ div.comphead { float:left; }
 							<div class="success-message">Contact form submitted</div>
 						</div>
 						<label class="name">
-							<input type="text" data-constraints="@Required @JustLetters" id="regula-generated-905352">
+							<input placeholder="Name" type="text" data-constraints="@Required @JustLetters" id="regula-generated-905352">
+							
 							<span class="empty-message">*This field is required.</span>
 							<span class="error-message">*This is not a valid name.</span>
-						<span class="_placeholder" style="left: 0px; top: 0px; width: 156px; height: 29px;">Name:</span></label>
+						<span class="_placeholder" style="left: 0px; top: 0px; width: 156px; height: 29px;"></span></label>
 						<label class="email">
-							<input type="text" data-constraints="@Required @Email" id="regula-generated-549288">
+							<input placeholder="E-mail" type="text" data-constraints="@Required @Email" id="regula-generated-549288">
+							
 							<span class="empty-message">*This field is required.</span>
 							<span class="error-message">*This is not a valid email.</span>
-						<span class="_placeholder" style="left: 0px; top: 0px; width: 156px; height: 29px;">E-mail:</span></label>
+						<span class="_placeholder" style="left: 0px; top: 0px; width: 156px; height: 29px;"></span></label>
 						<label class="phone">
-							<input type="text" data-constraints="@Required @JustNumbers" id="regula-generated-873655">
+							<input placeholder="Phone" type="text" data-constraints="@Required @JustNumbers" id="regula-generated-873655">
 							<span class="empty-message">*This field is required.</span>
 							<span class="error-message">*This is not a valid phone.</span>
-						<span class="_placeholder" style="left: 0px; top: 0px; width: 156px; height: 29px;">Phone:</span></label>
+						<span class="_placeholder" style="left: 0px; top: 0px; width: 156px; height: 29px;"></span></label>
 						<label class="message">
-							<textarea data-constraints="@Required @Length(min=20,max=999999)" id="regula-generated-915789"></textarea>
+							<textarea placeholder="Message" data-constraints="@Required @Length(min=20,max=999999)" id="regula-generated-915789"></textarea>
 							<span class="empty-message">*This field is required.</span>
 							<span class="error-message">*The message is too short.</span>
-						<span class="_placeholder" style="left: 0px; top: 0px; width: 582px; height: 237px;">Message:</span></label>
+						<span class="_placeholder" style="left: 0px; top: 0px; width: 582px; height: 237px;"></span></label>
 						<div>
 							<div class="clear"></div>
 							<div class="btns">

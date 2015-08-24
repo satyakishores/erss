@@ -102,7 +102,7 @@
 #form .error-message, #form .empty-message {
 	color: #E02A05;
 	font-size: 11px;
-	line-height:14px;
+	line-height:50px;
 	width:auto;
 	position: absolute;
 	z-index: 999;
